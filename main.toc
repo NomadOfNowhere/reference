@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {1.3}Segment tree - Lazy propagation}{2}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Segment tree - Persistence}{3}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Fenwick tree}{3}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}DSU}{4}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.6}DSU}{3}{subsection.1.6}%
 \contentsline {subsection}{\numberline {1.7}SQRT decomposition}{4}{subsection.1.7}%
 \contentsline {subsection}{\numberline {1.8}Trie}{4}{subsection.1.8}%
 \contentsline {subsection}{\numberline {1.9}Trie XOR}{5}{subsection.1.9}%
@@ -16,17 +16,17 @@
 \contentsline {subsection}{\numberline {1.14}Monotonic stack}{6}{subsection.1.14}%
 \contentsline {subsection}{\numberline {1.15}Matrix operations}{7}{subsection.1.15}%
 \contentsline {subsection}{\numberline {1.16}Heavy Light Decomposition}{7}{subsection.1.16}%
-\contentsline {section}{\numberline {2}Graphs}{8}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Euler tour}{8}{subsection.2.1}%
+\contentsline {section}{\numberline {2}Graphs}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Euler tour}{7}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Find bridges}{8}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Dijkstra}{8}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Binary Lifting LCA}{9}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Binary Lifting LCA}{8}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Centroid decomposition}{9}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Edmonds karp}{10}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.6}Edmonds karp}{9}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Dinics}{10}{subsection.2.7}%
 \contentsline {subsection}{\numberline {2.8}Bipartite check}{11}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}Has cycle?}{11}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Kuhn - matching}{12}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.10}Kuhn - matching}{11}{subsection.2.10}%
 \contentsline {subsection}{\numberline {2.11}Hopcroft Karp - matching}{12}{subsection.2.11}%
 \contentsline {subsection}{\numberline {2.12}Min cost - max flow}{12}{subsection.2.12}%
 \contentsline {subsection}{\numberline {2.13}2sat}{13}{subsection.2.13}%
@@ -44,7 +44,7 @@
 \contentsline {subsection}{\numberline {5.1}Convex Hull}{16}{subsection.5.1}%
 \contentsline {section}{\numberline {6}Techniques}{17}{section.6}%
 \contentsline {subsection}{\numberline {6.1}MO's algorithm}{17}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Parallel binary search}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Parallel binary search}{17}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Split objects into light and heavy}{18}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Meet in the middle}{19}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Dijkstra on ST}{20}{subsection.6.5}%
@@ -52,7 +52,7 @@
 \contentsline {section}{\numberline {7}Basic techniques}{20}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Difference array}{20}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Prefix Sum 2D}{20}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Random number generator}{21}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.3}Random number generator}{20}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Coordinate compression}{21}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}Digit DP}{21}{subsection.7.5}%
 \contentsline {subsection}{\numberline {7.6}Intersection [L1, R1] and [L2, R2]}{21}{subsection.7.6}%
