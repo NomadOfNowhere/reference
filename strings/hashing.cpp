@@ -1,11 +1,10 @@
 #define rep(i,a,b) for(int i=a;i<b;i++)
 using ll = long long;
 
-const int base = 251, MOD = 1e9+7;
+const int base = 251, MOD = 1e9+7, N = 2e5+5;
+ll p[N], hashes[N];
 vector<int> rolling_hash(string text, string pattern) {
     int n = text.length(), m = pattern.length();
-    vector<ll> hashes(n+1), p(n+1);
-
     p[0] = 1;
     rep(i,1,n+1) p[i] = p[i-1] * base % MOD;
 
@@ -23,7 +22,7 @@ vector<int> rolling_hash(string text, string pattern) {
 }
 
 // 0. Define 2 prime numbers: base and mod
-// 1. Precompute powers of base
-// 2. Compute prefix hashes of text
-// 3. Compute hash of pattern
+// 1. Precompute powers of the base
+// 2. Compute prefix hashes for the text
+// 3. Compute hash of the pattern
 // 4. Sliding window of pattern size over the text to find matches
