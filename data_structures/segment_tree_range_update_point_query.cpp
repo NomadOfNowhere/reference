@@ -9,8 +9,12 @@ void update(int l, int r, int a, int b, int x, int i) {
     update(l, M, a, b, x, 2*i+1);
     update(M+1, r, a, b, x, 2*i+2);
 }
+
 int query(int l, int r, int idx, int i) {
-    if(idx > r || idx < l) return 0;       // change for min/max
-    if(idx <= l && r <= idx) return st[i];
-    return op(op(query(l, M, idx, 2*i+1), query(M+1, r, idx, 2*i+2)), st[i]);
+    if(l == r) return st[i];
+    
+    int sum;
+    if(idx <= M) sum = query(l, M, idx, 2*i+1);
+    else sum = query(M+1, r, idx, 2*i+2);
+    return op(sum, st[i]);
 }
