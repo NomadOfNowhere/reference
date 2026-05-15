@@ -42,19 +42,21 @@
 \BOOKMARK [1][-]{section.4}{Strings}{}% 42
 \BOOKMARK [2][-]{subsection.4.1}{Rolling Hash}{section.4}% 43
 \BOOKMARK [2][-]{subsection.4.2}{LCP using hashing + bs}{section.4}% 44
-\BOOKMARK [1][-]{section.5}{Geometry}{}% 45
-\BOOKMARK [2][-]{subsection.5.1}{Convex Hull}{section.5}% 46
-\BOOKMARK [1][-]{section.6}{Techniques}{}% 47
-\BOOKMARK [2][-]{subsection.6.1}{MO's algorithm}{section.6}% 48
-\BOOKMARK [2][-]{subsection.6.2}{Parallel binary search}{section.6}% 49
-\BOOKMARK [2][-]{subsection.6.3}{Split objects into light and heavy}{section.6}% 50
-\BOOKMARK [2][-]{subsection.6.4}{Meet in the middle}{section.6}% 51
-\BOOKMARK [2][-]{subsection.6.5}{Dijkstra on ST}{section.6}% 52
-\BOOKMARK [2][-]{subsection.6.6}{Venice set}{section.6}% 53
-\BOOKMARK [1][-]{section.7}{Basic techniques}{}% 54
-\BOOKMARK [2][-]{subsection.7.1}{Difference array}{section.7}% 55
-\BOOKMARK [2][-]{subsection.7.2}{Prefix Sum 2D}{section.7}% 56
-\BOOKMARK [2][-]{subsection.7.3}{Random number generator}{section.7}% 57
-\BOOKMARK [2][-]{subsection.7.4}{Coordinate compression}{section.7}% 58
-\BOOKMARK [2][-]{subsection.7.5}{Digit DP}{section.7}% 59
-\BOOKMARK [2][-]{subsection.7.6}{Intersection [L1, R1] and [L2, R2]}{section.7}% 60
+\BOOKMARK [2][-]{subsection.4.3}{Suffix Automaton}{section.4}% 45
+\BOOKMARK [2][-]{subsection.4.4}{Suffix Array}{section.4}% 46
+\BOOKMARK [1][-]{section.5}{Geometry}{}% 47
+\BOOKMARK [2][-]{subsection.5.1}{Convex Hull}{section.5}% 48
+\BOOKMARK [1][-]{section.6}{Techniques}{}% 49
+\BOOKMARK [2][-]{subsection.6.1}{MO's algorithm}{section.6}% 50
+\BOOKMARK [2][-]{subsection.6.2}{Parallel binary search}{section.6}% 51
+\BOOKMARK [2][-]{subsection.6.3}{Split objects into light and heavy}{section.6}% 52
+\BOOKMARK [2][-]{subsection.6.4}{Meet in the middle}{section.6}% 53
+\BOOKMARK [2][-]{subsection.6.5}{Dijkstra on ST}{section.6}% 54
+\BOOKMARK [2][-]{subsection.6.6}{Venice set}{section.6}% 55
+\BOOKMARK [1][-]{section.7}{Basic techniques}{}% 56
+\BOOKMARK [2][-]{subsection.7.1}{Difference array}{section.7}% 57
+\BOOKMARK [2][-]{subsection.7.2}{Prefix Sum 2D}{section.7}% 58
+\BOOKMARK [2][-]{subsection.7.3}{Random number generator}{section.7}% 59
+\BOOKMARK [2][-]{subsection.7.4}{Coordinate compression}{section.7}% 60
+\BOOKMARK [2][-]{subsection.7.5}{Digit DP}{section.7}% 61
+\BOOKMARK [2][-]{subsection.7.6}{Intersection [L1, R1] and [L2, R2]}{section.7}% 62

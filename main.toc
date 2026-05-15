@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {1.18}Dynamic Convex Hull Trick}{8}{subsection.1.18}%
 \contentsline {section}{\numberline {2}Graphs}{8}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Euler tour}{8}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Find bridges}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Find bridges}{9}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Dijkstra}{9}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Binary Lifting LCA}{9}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Centroid decomposition}{10}{subsection.2.5}%
@@ -43,19 +43,21 @@
 \contentsline {section}{\numberline {4}Strings}{16}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Rolling Hash}{16}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}LCP using hashing + bs}{17}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Geometry}{17}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Convex Hull}{17}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Techniques}{18}{section.6}%
-\contentsline {subsection}{\numberline {6.1}MO's algorithm}{18}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Parallel binary search}{18}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Split objects into light and heavy}{19}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Meet in the middle}{20}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Dijkstra on ST}{21}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Venice set}{21}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Basic techniques}{21}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Difference array}{21}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Prefix Sum 2D}{21}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Random number generator}{21}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Coordinate compression}{22}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Digit DP}{22}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Intersection [L1, R1] and [L2, R2]}{22}{subsection.7.6}%
+\contentsline {subsection}{\numberline {4.3}Suffix Automaton}{17}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Suffix Array}{18}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Geometry}{19}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Convex Hull}{19}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Techniques}{20}{section.6}%
+\contentsline {subsection}{\numberline {6.1}MO's algorithm}{20}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Parallel binary search}{20}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Split objects into light and heavy}{21}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Meet in the middle}{22}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Dijkstra on ST}{23}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Venice set}{23}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Basic techniques}{23}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Difference array}{23}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Prefix Sum 2D}{23}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Random number generator}{23}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Coordinate compression}{24}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Digit DP}{24}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Intersection [L1, R1] and [L2, R2]}{24}{subsection.7.6}%
