@@ -73,47 +73,6 @@
     \cppfile{graphs/min_cost_max_flow.cpp}
 \subsection{2sat}
     \cppfile{graphs/2sat.cpp}
-% \subsection{Segment tree - 2D}
-    % \cppfile{data_structures/segment_tree_2d.cpp}
-
-% \subsection{Sparse table (static RMQ)}
-%     % \cppfile{data_structures/sparse_table.cpp}
-% \subsection{Treap (implicit key)}
-%     % \cppfile{data_structures/treap_implicit.cpp}
-% \subsection{Treap (with node father)}
-%     % \cppfile{data_structures/treap_implicit_father.cpp}
-
-
-% \section{Graphs}
-% \subsection{Topological sort}
-%     
-% \subsection{Kruskal (+ Union-Find)}
-%     % \cppfile{graphs/kruskal.cpp}
-% \subsection{Dijkstra}
-%     % \cppfile{graphs/dijkstra.cpp}
-% \subsection{Bellman-Ford}
-%     % \cppfile{graphs/bellman_ford.cpp}
-% \subsection{Floyd-Warshall}
-%     % \cppfile{graphs/floyd_warshall.cpp}
-% \subsection{Strongly connected components (+ 2-SAT)}
-%     % \cppfile{graphs/tarjan_2sat.cpp}
-% \subsection{Articulation - Bridges - Biconnected}
-%     % \cppfile{graphs/articulation_bridges_biconnected.cpp}
-% \subsection{Chu-Liu (minimum spanning arborescence)}
-%     % \cppfile{graphs/chu_liu.cpp}
-% \subsection{LCA - Binary Lifting}
-%     % \cppfile{graphs/lca.cpp}
-% \subsection{Heavy-Light decomposition}
-%     % \cppfile{graphs/hld.cpp}
-% \subsection{Centroid decomposition}
-%     % \cppfile{graphs/centroid.cpp}
-% \subsection{Parallel DFS}
-%     % \cppfile{graphs/parallel_dfs.cpp}
-% \subsection{Eulerian path}
-%     % \cppfile{graphs/eulerian_path.cpp}
-% \subsection{Dynamic connectivity}
-%     % \cppfile{graphs/dynamic_connectivity.cpp}
-
 \section{Math}
 \subsection{Binpow}
     \cppfile{math/binpow.cpp}
@@ -154,6 +113,94 @@
 	(Möbius Inv. Formula)
 	Let $g(n) = \sum_{d\mid n} f(d)$, then $f(n)=\sum{d\mid n} g(d) \mu\left(\frac{n}{d})\right)$.
 }
+
+\section{Strings}
+\subsection{KMP}
+    \cppfile{strings/kmp.cpp}
+\subsection{Rolling Hash}
+    \cppfile{strings/hashing.cpp}
+\subsection{LCP using hashing + bs}
+    \cppfile{strings/lcp_hashing.cpp}
+\subsection{Suffix Automaton}
+    \cppfile{strings/suffix_automaton.cpp}
+\subsection{Suffix Array}
+    \cppfile{strings/suffix_array.cpp}
+
+
+\section{Geometry}
+\subsection{Convex Hull}
+    \cppfile{geometry/convex_hull.cpp}
+
+\section{Techniques}
+\subsection{MO's algorithm}
+    \cppfile{techniques/mos_algorithm.cpp}
+\subsection{Parallel binary search}
+    \cppfile{techniques/parallel_bs.cpp}
+\subsection{Split objects into light and heavy}
+    \cppfile{techniques/light_heavy.cpp}
+\subsection{Meet in the middle}
+    \cppfile{techniques/meet_in_the_middle.cpp}
+\subsection{Dijkstra on ST}
+    \cppfile{techniques/dijkstra_on_st.cpp}
+\subsection{Venice set}
+    \cppfile{techniques/venice_set.cpp}
+
+\section{Basic techniques}
+\subsection{Difference array}
+    \cppfile{basic_techniques/diff_array.cpp}
+\subsection{Prefix Sum 2D}
+    \cppfile{basic_techniques/prefix_sum_2d.cpp}
+\subsection{Random number generator}
+    \cppfile{basic_techniques/random.cpp}
+\subsection{Coordinate compression}
+    \cppfile{basic_techniques/coord_compression.cpp}
+\subsection{Digit DP}
+    \cppfile{basic_techniques/digit_dp.cpp}
+\subsection{Intersection [L1, R1] and [L2, R2]}
+    \cppfile{basic_techniques/intersection.cpp}
+\end{document}
+
+
+% \subsection{Segment tree - 2D}
+    % \cppfile{data_structures/segment_tree_2d.cpp}
+
+% \subsection{Sparse table (static RMQ)}
+%     % \cppfile{data_structures/sparse_table.cpp}
+% \subsection{Treap (implicit key)}
+%     % \cppfile{data_structures/treap_implicit.cpp}
+% \subsection{Treap (with node father)}
+%     % \cppfile{data_structures/treap_implicit_father.cpp}
+
+
+% \section{Graphs}
+% \subsection{Topological sort}
+%     
+% \subsection{Kruskal (+ Union-Find)}
+%     % \cppfile{graphs/kruskal.cpp}
+% \subsection{Dijkstra}
+%     % \cppfile{graphs/dijkstra.cpp}
+% \subsection{Bellman-Ford}
+%     % \cppfile{graphs/bellman_ford.cpp}
+% \subsection{Floyd-Warshall}
+%     % \cppfile{graphs/floyd_warshall.cpp}
+% \subsection{Strongly connected components (+ 2-SAT)}
+%     % \cppfile{graphs/tarjan_2sat.cpp}
+% \subsection{Articulation - Bridges - Biconnected}
+%     % \cppfile{graphs/articulation_bridges_biconnected.cpp}
+% \subsection{Chu-Liu (minimum spanning arborescence)}
+%     % \cppfile{graphs/chu_liu.cpp}
+% \subsection{LCA - Binary Lifting}
+%     % \cppfile{graphs/lca.cpp}
+% \subsection{Heavy-Light decomposition}
+%     % \cppfile{graphs/hld.cpp}
+% \subsection{Centroid decomposition}
+%     % \cppfile{graphs/centroid.cpp}
+% \subsection{Parallel DFS}
+%     % \cppfile{graphs/parallel_dfs.cpp}
+% \subsection{Eulerian path}
+%     % \cppfile{graphs/eulerian_path.cpp}
+% \subsection{Dynamic connectivity}
+%     % \cppfile{graphs/dynamic_connectivity.cpp}
 % \subsection{Theorems}
 %     % \cppfile{math/theorems.txt}
 % \subsection{Integer floor division}
@@ -272,48 +319,3 @@
 %     % \cppfile{other/hcn.txt}
 % \subsection{Template}
 %     % \cppfile{other/template.cpp}
-\section{Strings}
-\subsection{KMP}
-    \cppfile{strings/kmp.cpp}
-\subsection{Rolling Hash}
-    \cppfile{strings/hashing.cpp}
-\subsection{LCP using hashing + bs}
-    \cppfile{strings/lcp_hashing.cpp}
-\subsection{Suffix Automaton}
-    \cppfile{strings/suffix_automaton.cpp}
-\subsection{Suffix Array}
-    \cppfile{strings/suffix_array.cpp}
-
-
-\section{Geometry}
-\subsection{Convex Hull}
-    \cppfile{geometry/convex_hull.cpp}
-
-\section{Techniques}
-\subsection{MO's algorithm}
-    \cppfile{techniques/mos_algorithm.cpp}
-\subsection{Parallel binary search}
-    \cppfile{techniques/parallel_bs.cpp}
-\subsection{Split objects into light and heavy}
-    \cppfile{techniques/light_heavy.cpp}
-\subsection{Meet in the middle}
-    \cppfile{techniques/meet_in_the_middle.cpp}
-\subsection{Dijkstra on ST}
-    \cppfile{techniques/dijkstra_on_st.cpp}
-\subsection{Venice set}
-    \cppfile{techniques/venice_set.cpp}
-
-\section{Basic techniques}
-\subsection{Difference array}
-    \cppfile{basic_techniques/diff_array.cpp}
-\subsection{Prefix Sum 2D}
-    \cppfile{basic_techniques/prefix_sum_2d.cpp}
-\subsection{Random number generator}
-    \cppfile{basic_techniques/random.cpp}
-\subsection{Coordinate compression}
-    \cppfile{basic_techniques/coord_compression.cpp}
-\subsection{Digit DP}
-    \cppfile{basic_techniques/digit_dp.cpp}
-\subsection{Intersection [L1, R1] and [L2, R2]}
-    \cppfile{basic_techniques/intersection.cpp}
-\end{document}

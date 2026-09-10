@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.10)  20 MAY 2026 22:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.7.4)  10 SEP 2026 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,33 +472,63 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 13.
  (./data_structures/segment_tree.cpp)
 (./data_structures/segment_tree_range_update_point_query.cpp)
-(./data_structures/segment_tree_lazy.cpp)
+(./data_structures/segment_tree_lazy.cpp [2])
 (./data_structures/segment_tree_persistent.cpp)
-(./data_structures/fenwick_tree.cpp) (./data_structures/dsu.cpp)
-(./data_structures/sqrt_decomposition.cpp) (./data_structures/trie.cpp)
+(./data_structures/fenwick_tree.cpp) (./data_structures/dsu.cpp [3])
+(./data_structures/sqrt_decomposition.cpp) (./data_structures/trie.cpp [4])
 (./data_structures/trie_xor.cpp) (./data_structures/custom_hash.cpp)
-(./data_structures/ordered_set.cpp) (./data_structures/merge_sort_tree.cpp)
-(./data_structures/wavelet_tree.cpp) (./data_structures/monotonic_stack.cpp)
-(./data_structures/matrix.cpp) (./data_structures/hld.cpp)
-(./data_structures/cht.cpp) (./data_structures/dynamic_cht.cpp)
-(./graphs/euler_tour.cpp) (./graphs/find_bridges.cpp) (./graphs/dijkstra.cpp)
-(./graphs/binary_lifting_lca.cpp) (./graphs/centroid_decomp.cpp) [2]
-(./graphs/edmonds_karp.cpp) (./graphs/dinics.cpp) (./graphs/bipartite_check.cpp
-) (./graphs/has_cycle.cpp) (./graphs/kuhn_matching.cpp)
-(./graphs/hopcroft_karp_matching.cpp) (./graphs/min_cost_max_flow.cpp)
-(./graphs/2sat.cpp) (./math/binpow.cpp) (./math/mod_inverse.cpp)
-(./math/linear_sieve.cpp) (./math/factorials.cpp)
-(./math/prime_factorization.cpp) (./math/divisors.cpp) (./strings/kmp.cpp)
-(./strings/hashing.cpp) (./strings/lcp_hashing.cpp)
-(./strings/suffix_automaton.cpp) [3] (./strings/suffix_array.cpp)
-(./geometry/convex_hull.cpp) (./techniques/mos_algorithm.cpp)
-(./techniques/parallel_bs.cpp) (./techniques/light_heavy.cpp)
-(./techniques/meet_in_the_middle.cpp) (./techniques/dijkstra_on_st.cpp)
-(./techniques/venice_set.cpp) (./basic_techniques/diff_array.cpp)
-(./basic_techniques/prefix_sum_2d.cpp) (./basic_techniques/random.cpp)
-(./basic_techniques/coord_compression.cpp) (./basic_techniques/digit_dp.cpp)
-(./basic_techniques/intersection.cpp) [4]
+(./data_structures/ordered_set.cpp) (./data_structures/merge_sort_tree.cpp
+[5]) (./data_structures/wavelet_tree.cpp)
+(./data_structures/monotonic_stack.cpp [6]) (./data_structures/matrix.cpp)
+(./data_structures/hld.cpp) (./data_structures/cht.cpp [7])
+(./data_structures/dynamic_cht.cpp) (./graphs/euler_tour.cpp)
+Underfull \vbox (badness 1303) has occurred while \output is active []
 
+ [8]
+(./graphs/find_bridges.cpp) (./graphs/dijkstra.cpp)
+(./graphs/binary_lifting_lca.cpp [9]) (./graphs/centroid_decomp.cpp)
+(./graphs/edmonds_karp.cpp [10]) (./graphs/dinics.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11])
+(./graphs/bipartite_check.cpp) (./graphs/has_cycle.cpp)
+(./graphs/kuhn_matching.cpp) (./graphs/hopcroft_karp_matching.cpp [12])
+(./graphs/min_cost_max_flow.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13])
+(./graphs/2sat.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./math/binpow.cpp) (./math/mod_inverse.cpp) (./math/linear_sieve.cpp [15])
+(./math/factorials.cpp) (./math/prime_factorization.cpp) (./math/divisors.cpp)
+(./strings/kmp.cpp) [16] (./strings/hashing.cpp) (./strings/lcp_hashing.cpp)
+(./strings/suffix_automaton.cpp [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./strings/suffix_array.cpp [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./geometry/convex_hull.cpp [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./techniques/mos_algorithm.cpp [20]) (./techniques/parallel_bs.cpp)
+(./techniques/light_heavy.cpp [21]) (./techniques/meet_in_the_middle.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22])
+(./techniques/dijkstra_on_st.cpp) (./techniques/venice_set.cpp)
+(./basic_techniques/diff_array.cpp [23]) (./basic_techniques/prefix_sum_2d.cpp)
+(./basic_techniques/random.cpp) (./basic_techniques/coord_compression.cpp)
+(./basic_techniques/digit_dp.cpp) (./basic_techniques/intersection.cpp)
+[24] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./main.aux)
  ***********
@@ -509,13 +539,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0785008879FB3F23B09D16D78FCE1C7A;8479.
  ) 
 Here is how much of TeX's memory you used:
- 14070 strings out of 469453
- 216457 string characters out of 5469037
- 960212 words of memory out of 5000000
- 42214 multiletter control sequences out of 15000+600000
+ 16908 strings out of 469453
+ 254758 string characters out of 5469038
+ 1496212 words of memory out of 5000000
+ 43342 multiletter control sequences out of 15000+600000
  631712 words of font info for 56 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 80i,11n,82p,319b,1390s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,82p,319b,2157s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -526,10 +556,10 @@ st/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (4 pages, 175727 bytes).
+Output written on main.pdf (24 pages, 304002 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 520 compressed objects within 6 object streams
- 179 named destinations out of 1000 (max. 500000)
+ 2715 PDF objects out of 2984 (max. 8388607)
+ 2638 compressed objects within 27 object streams
+ 1889 named destinations out of 2073 (max. 500000)
  505 words of extra memory for PDF output out of 10000 (max. 10000000)
 
