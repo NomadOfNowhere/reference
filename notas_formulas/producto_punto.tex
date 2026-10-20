@@ -1,0 +1,29 @@
+\begin{center}
+\setlength{\unitlength}{1pt}
+\begin{picture}(330,78)(0,-28)
+	% a.b > 0
+	\thicklines
+	\put(30,0){\vector(1,0){50}}
+	\put(30,0){\vector(1,1){30}}
+	\thinlines
+	\put(83,-3){$a$}\put(62,32){$b$}
+	\put(55,-11){\makebox(0,0){\small $a\cdot b>0$}}\put(55,-21){\makebox(0,0){\small $b$ en la misma dirección que $a$}}
+	% a.b = 0
+	\thicklines
+	\put(140,0){\vector(1,0){50}}
+	\put(140,0){\vector(0,1){40}}
+	\thinlines
+	\put(140,6){\line(1,0){6}}\put(146,0){\line(0,1){6}}
+	\put(193,-3){$a$}\put(135,44){$b$}
+	\put(165,-11){\makebox(0,0){\small $a\cdot b=0$}}\put(165,-21){\makebox(0,0){\small $b$ perpendicular a $a$}}
+	% a.b < 0
+	\thicklines
+	\put(280,0){\vector(1,0){50}}
+	\put(280,0){\vector(-1,1){30}}
+	\thinlines
+	\put(333,-3){$a$}\put(242,32){$b$}
+	\put(285,-11){\makebox(0,0){\small $a\cdot b<0$}}\put(285,-21){\makebox(0,0){\small $b$ en sentido contrario a $a$}}
+\end{picture}
+
+$a \cdot b = a_x b_x + a_y b_y$
+\end{center}

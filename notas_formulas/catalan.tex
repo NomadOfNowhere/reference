@@ -1,0 +1,29 @@
+\begin{center}
+\renewcommand{\arraystretch}{2.2}\setlength{\tabcolsep}{10pt}
+\begin{tabular}{ll}
+	$C_n = \dbinom{2n}{n} - \dbinom{2n}{n+1} = \dfrac{1}{n+1}\dbinom{2n}{n}$ & $C_{n+1} = \sum_{i=0}^{n} C_i\, C_{n-i}$ \\
+\end{tabular}
+
+\setlength{\unitlength}{1pt}
+\begin{picture}(330,105)(0,-12)
+	\thinlines
+	\multiput(0,0)(15,0){6}{\line(0,1){75}}
+	\multiput(0,0)(0,15){6}{\line(1,0){75}}
+	\put(0,0){\line(1,1){75}}
+	\multiput(0,15)(3,3){21}{\circle*{1.2}}
+	\linethickness{1.6pt}
+	\put(0,0){\line(1,0){15}}\put(15,0){\line(0,1){30}}
+	\put(15,30){\line(1,0){15}}\put(30,30){\line(0,1){15}}
+	\put(30,45){\line(1,0){45}}\put(75,45){\line(0,1){30}}
+	\thinlines
+	\put(-6,-10){\small $(0,0)$}\put(78,72){\small $(n,n)$}
+	\put(30,82){\small $y=x+1$}
+	\put(15,30){\circle*{4}}
+	\put(100,62){\small Caminos de $(0,0)$ a $(n,n)$ (derecha/arriba) sin pasar}
+	\put(100,50){\small arriba de $y=x$. Un camino malo toca $y=x+1$: se}
+	\put(100,38){\small refleja lo que sigue despu\'es del primer toque y}
+	\put(100,26){\small acaba en $(n-1,n+1)$ $\Rightarrow$ malos $= \binom{2n}{n+1}$.}
+	\put(100,8){\small Usos: par\'entesis balanceados, \'arboles binarios,}
+	\put(100,-4){\small triangulaciones, caminos de Dyck.}
+\end{picture}
+\end{center}

@@ -1,0 +1,29 @@
+\begin{center}
+\renewcommand{\arraystretch}{1.8}
+\begin{tabular}{ll}
+	\textbf{Multiplicativa:} & $f(ab) = f(a)\,f(b)$ \; si $\gcd(a,b) = 1$ \\
+	\textbf{Completamente multiplicativa:} & $f(ab) = f(a)\,f(b)$ \; siempre \\
+	\textbf{Se separa en primos:} & $f(p_1^{e_1} \cdots p_k^{e_k}) = f(p_1^{e_1}) \cdots f(p_k^{e_k})$ \\
+\end{tabular}
+
+Solo hay que saber $f(p^e)$, y se calcula para todo $n \le N$ con la criba lineal.
+\end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.9}\setlength{\tabcolsep}{6pt}
+\begin{tabular}{llp{150pt}}
+	\textbf{Funci\'on} & \textbf{F\'ormula} & \textbf{Para qu\'e sirve} \\ \hline
+	$\varphi(n)$ (Euler) & $n \prod_{p \mid n} \left(1 - \frac{1}{p}\right)$ & \raggedright Contar $i \le n$ con $\gcd(i,n)=1$. Euler: $a^{\varphi(m)} \equiv 1 \pmod m$ \tabularnewline
+	$\sigma_0(n)$ & $\prod (e_i + 1)$ & \raggedright N\'umero de divisores de $n$ \tabularnewline
+	$\sigma_1(n)$ & $\prod \frac{p_i^{e_i+1} - 1}{p_i - 1}$ & \raggedright Suma de los divisores de $n$ \tabularnewline
+	$\mu(n)$ (M\"obius) & $0$ si $p^2 \mid n$, si no $(-1)^{r}$ & \raggedright Inclusi\'on-exclusi\'on sobre divisores: $[\gcd = 1] = \sum_{d \mid \gcd} \mu(d)$ \tabularnewline
+	$\gcd(n, m)$, $m$ fijo & $\prod p_i^{\min(e_i, f_i)}$ & \raggedright Sumas de gcd: $\sum_{i \le n} \gcd(i,n) = \sum_{d \mid n} d\,\varphi(\frac{n}{d})$ \tabularnewline
+	$n^k$ & completamente mult. & \raggedright Base para armar otras con convoluci\'on \tabularnewline
+\end{tabular}
+\end{center}
+
+\begin{center}
+$n = \prod p_i^{e_i}$, \; $m = \prod p_i^{f_i}$, \; $r$ = n\'umero de primos distintos de $n$
+
+$\sum_{d \mid n} \varphi(d) = n$ \qquad $\sum_{d \mid n} \mu(d) = [n = 1]$
+\end{center}

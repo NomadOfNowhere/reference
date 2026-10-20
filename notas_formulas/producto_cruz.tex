@@ -1,0 +1,32 @@
+\begin{center}
+\setlength{\unitlength}{1pt}
+\begin{picture}(330,100)(0,-62)
+	% a x b > 0
+	\thicklines
+	\put(30,0){\vector(1,0){50}}
+	\put(30,0){\vector(1,1){30}}
+	\thinlines
+	\qbezier(48,0)(48,8)(43,13)
+	\put(43,13){\vector(-1,1){0}}
+	\put(83,-3){$a$}\put(62,32){$b$}
+	\put(55,-45){\makebox(0,0){\small $a\times b>0$}}\put(55,-55){\makebox(0,0){\small $b$ a la izquierda de $a$}}
+	% a x b < 0
+	\thicklines
+	\put(140,0){\vector(1,0){50}}
+	\put(140,0){\vector(1,-1){30}}
+	\thinlines
+	\qbezier(158,0)(158,-8)(153,-13)
+	\put(153,-13){\vector(-1,-1){0}}
+	\put(193,-3){$a$}\put(174,-30){$b$}
+	\put(165,-45){\makebox(0,0){\small $a\times b<0$}}\put(165,-55){\makebox(0,0){\small $b$ a la derecha de $a$}}
+	% a x b = 0
+	\thicklines
+	\put(280,0){\vector(1,0){50}}
+	\put(280,0){\vector(-1,0){35}}
+	\thinlines
+	\put(333,-3){$a$}\put(238,4){$b$}
+	\put(285,-45){\makebox(0,0){\small $a\times b=0$}}\put(285,-55){\makebox(0,0){\small $b$ colineal con $a$}}
+\end{picture}
+
+$a \times b = a_x b_y - a_y b_x$
+\end{center}

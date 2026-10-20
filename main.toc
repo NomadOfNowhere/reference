@@ -8,6 +8,7 @@
 \contentsline {subsection}{\numberline {1.6}DSU}{3}{subsection.1.6}%
 \contentsline {subsection}{\numberline {1.7}SQRT decomposition}{4}{subsection.1.7}%
 \contentsline {subsection}{\numberline {1.8}Trie}{4}{subsection.1.8}%
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {1.9}Trie XOR}{5}{subsection.1.9}%
 \contentsline {subsection}{\numberline {1.10}Map custom hash}{5}{subsection.1.10}%
 \contentsline {subsection}{\numberline {1.11}Ordered set}{5}{subsection.1.11}%
@@ -62,3 +63,78 @@
 \contentsline {subsection}{\numberline {7.4}Coordinate compression}{24}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}Digit DP}{24}{subsection.7.5}%
 \contentsline {subsection}{\numberline {7.6}Intersection [L1, R1] and [L2, R2]}{24}{subsection.7.6}%
+=======
+\contentsline {subsection}{\numberline {1.9}Trie XOR}{4}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Map custom hash}{5}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.11}Ordered set}{5}{subsection.1.11}%
+\contentsline {subsection}{\numberline {1.12}Merge Sort Tree}{5}{subsection.1.12}%
+\contentsline {subsection}{\numberline {1.13}Wavelet Tree}{5}{subsection.1.13}%
+\contentsline {subsection}{\numberline {1.14}Monotonic stack}{6}{subsection.1.14}%
+\contentsline {subsection}{\numberline {1.15}Matrix operations}{6}{subsection.1.15}%
+\contentsline {subsection}{\numberline {1.16}Heavy Light Decomposition}{7}{subsection.1.16}%
+\contentsline {subsection}{\numberline {1.17}Convex Hull Trick}{7}{subsection.1.17}%
+\contentsline {subsection}{\numberline {1.18}Dynamic Convex Hull Trick}{7}{subsection.1.18}%
+\contentsline {section}{\numberline {2}Graphs}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Euler tour}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Find bridges}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Dijkstra}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Binary Lifting LCA}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Binary Lifting - Operations on path}{9}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Centroid decomposition}{9}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Centroid decomposition - Fast}{10}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Edmonds karp}{10}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Dinics}{11}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Bipartite check}{11}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Has cycle?}{11}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Kuhn - matching}{12}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Hopcroft Karp - matching}{12}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}Min cost - max flow}{12}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}2sat}{13}{subsection.2.15}%
+\contentsline {section}{\numberline {3}Math}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Binpow}{14}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Modular inverse}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Linear Sieve}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Sieve of Eratosthenes}{15}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Greatest Prime Factor}{15}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Smallest Prime Factor}{15}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Factorials}{15}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Prime factorization}{15}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Divisors}{15}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Identities}{15}{subsection.3.10}%
+\contentsline {section}{\numberline {4}Strings}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}KMP}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Rolling Hash}{16}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}LCP using hashing + bs}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Suffix Automaton}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Suffix Array}{17}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Geometry}{18}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Convex Hull}{18}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Techniques}{19}{section.6}%
+\contentsline {subsection}{\numberline {6.1}MO's algorithm}{19}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Parallel binary search}{20}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Split objects into light and heavy}{20}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Meet in the middle}{21}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Dijkstra on ST}{21}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Venice set}{22}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Divide and conquer DP}{22}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Basic techniques}{22}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Difference array}{22}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Prefix Sum 2D}{22}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Random number generator}{22}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Coordinate compression}{23}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Digit DP}{23}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Intersection [L1, R1] and [L2, R2]}{23}{subsection.7.6}%
+\contentsline {section}{\numberline {8}Notas \& fórmulas}{23}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Producto punto}{23}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Producto cruz}{23}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Leyes de los exponentes}{23}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Logaritmos}{23}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Integrales}{24}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Linealidad del valor esperado}{24}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Teorema de Bayes}{24}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Probabilidad discreta y continua}{24}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}Seno, coseno y tangente}{24}{subsection.8.9}%
+\contentsline {subsection}{\numberline {8.10}N\'umeros de Catalan (principio de reflexi\'on)}{24}{subsection.8.10}%
+\contentsline {subsection}{\numberline {8.11}Teorema de Lucas}{24}{subsection.8.11}%
+\contentsline {subsection}{\numberline {8.12}Funciones multiplicativas}{24}{subsection.8.12}%
+>>>>>>> fb599ed (Notas de mates/LCA con operaciones/Divide & venceras/centroide descom rapido)

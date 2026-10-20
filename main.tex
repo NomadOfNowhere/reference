@@ -2,11 +2,13 @@
 \input{format.tex}
 \begin{document}
 % Gracias Demetrio
-\def\title{Competitive Programming Reference}
-.\\[0.2cm]
-\centering{\LARGE\textbf{Base Julios GOD}} \\[0.5cm]
-% \centering{\includegraphics[width=5.5cm]{img/vasito.jpg}}
-\tableofcontents\newpage
+\def\title{Base Julios GOD -- CP Reference}
+{\centering\LARGE\textbf{Base Julios GOD -- Competitive Programming Reference}\par}
+\vspace{0.2cm}
+{\centering\includegraphics[width=0.6\columnwidth]{fotoequipo.png}\par}
+\vspace{0.2cm}
+\tableofcontents
+\vspace{0.3cm}
 
 \section{Data structures}
 \subsection{Segment tree}
@@ -55,8 +57,12 @@
     \cppfile{graphs/dijkstra.cpp}
 \subsection{Binary Lifting LCA}
     \cppfile{graphs/binary_lifting_lca.cpp}
+\subsection{Binary Lifting - Operations on path}
+    \cppfile{graphs/binary_lifting_lca_op.cpp}
 \subsection{Centroid decomposition}
     \cppfile{graphs/centroid_decomp.cpp}
+\subsection{Centroid decomposition - Fast}
+    \cppfile{graphs/centroid_decomp_fast.cpp}
 \subsection{Edmonds karp}
     \cppfile{graphs/edmonds_karp.cpp}
 \subsection{Dinics}
@@ -80,6 +86,12 @@
     \cppfile{math/mod_inverse.cpp}
 \subsection{Linear Sieve}
     \cppfile{math/linear_sieve.cpp}
+\subsection{Sieve of Eratosthenes}
+    \cppfile{math/sieve.cpp}
+\subsection{Greatest Prime Factor}
+    \cppfile{math/gpf.cpp}
+\subsection{Smallest Prime Factor}
+    \cppfile{math/spf.cpp}
 \subsection{Factorials}
     \cppfile{math/factorials.cpp}
 \subsection{Prime factorization}
@@ -318,4 +330,81 @@
 % \subsection{Max number of divisors up to 10\textsuperscript{n}}
 %     % \cppfile{other/hcn.txt}
 % \subsection{Template}
+<<<<<<< HEAD
 %     % \cppfile{other/template.cpp}
+=======
+%     % \cppfile{other/template.cpp}
+\section{Strings}
+\subsection{KMP}
+    \cppfile{strings/kmp.cpp}
+\subsection{Rolling Hash}
+    \cppfile{strings/hashing.cpp}
+\subsection{LCP using hashing + bs}
+    \cppfile{strings/lcp_hashing.cpp}
+\subsection{Suffix Automaton}
+    \cppfile{strings/suffix_automaton.cpp}
+\subsection{Suffix Array}
+    \cppfile{strings/suffix_array.cpp}
+
+
+\section{Geometry}
+\subsection{Convex Hull}
+    \cppfile{geometry/convex_hull.cpp}
+
+\section{Techniques}
+\subsection{MO's algorithm}
+    \cppfile{techniques/mos_algorithm.cpp}
+\subsection{Parallel binary search}
+    \cppfile{techniques/parallel_bs.cpp}
+\subsection{Split objects into light and heavy}
+    \cppfile{techniques/light_heavy.cpp}
+\subsection{Meet in the middle}
+    \cppfile{techniques/meet_in_the_middle.cpp}
+\subsection{Dijkstra on ST}
+    \cppfile{techniques/dijkstra_on_st.cpp}
+\subsection{Venice set}
+    \cppfile{techniques/venice_set.cpp}
+\subsection{Divide and conquer DP}
+    \cppfile{techniques/divide_conquer_dp.cpp}
+
+\section{Basic techniques}
+\subsection{Difference array}
+    \cppfile{basic_techniques/diff_array.cpp}
+\subsection{Prefix Sum 2D}
+    \cppfile{basic_techniques/prefix_sum_2d.cpp}
+\subsection{Random number generator}
+    \cppfile{basic_techniques/random.cpp}
+\subsection{Coordinate compression}
+    \cppfile{basic_techniques/coord_compression.cpp}
+\subsection{Digit DP}
+    \cppfile{basic_techniques/digit_dp.cpp}
+\subsection{Intersection [L1, R1] and [L2, R2]}
+    \cppfile{basic_techniques/intersection.cpp}
+
+\section{Notas \& fórmulas}
+\subsection{Producto punto}
+    \input{notas_formulas/producto_punto.tex}
+\subsection{Producto cruz}
+    \input{notas_formulas/producto_cruz.tex}
+\subsection{Leyes de los exponentes}
+    \input{notas_formulas/exponentes.tex}
+\subsection{Logaritmos}
+    \input{notas_formulas/logaritmos.tex}
+\subsection{Integrales}
+    \input{notas_formulas/integrales.tex}
+\subsection{Linealidad del valor esperado}
+    \input{notas_formulas/valor_esperado.tex}
+\subsection{Teorema de Bayes}
+    \input{notas_formulas/bayes.tex}
+\subsection{Probabilidad discreta y continua}
+    \input{notas_formulas/probabilidad.tex}
+\subsection{Seno, coseno y tangente}
+    \input{notas_formulas/trigonometria.tex}
+\subsection{N\'umeros de Catalan (principio de reflexi\'on)}
+    \input{notas_formulas/catalan.tex}
+\subsection{Teorema de Lucas}
+    \input{notas_formulas/lucas.tex}
+\subsection{Funciones multiplicativas}
+    \input{notas_formulas/multiplicativas.tex}
+\end{document}
+>>>>>>> fb599ed (Notas de mates/LCA con operaciones/Divide & venceras/centroide descom rapido)
