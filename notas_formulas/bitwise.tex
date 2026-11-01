@@ -1,0 +1,28 @@
+\begin{lstlisting}
+x & (1<<i)          // checar el bit i
+x | (1<<i)          // prender el bit i
+x & ~(1<<i)         // apagar el bit i
+x ^ (1<<i)          // invertir el bit i
+~x == -x-1          // complemento (invierte todos los bits)
+x ^ ((1<<n)-1)      // complemento solo de los n bits bajos
+x & -x              // bit menos significativo prendido (lowbit)
+x & (x-1)           // apagar el bit menos significativo
+(x & (x-1)) == 0    // x es potencia de 2 (o x == 0)
+x | (x+1)           // prender el 0 menos significativo
+(1<<n) - 1          // n bits prendidos (usar 1LL si n >= 31)
+a + b == (a ^ b) + 2*(a & b)
+a + b == (a | b) + (a & b)
+a ^ b ^ b == a      // xor es su propio inverso
+// xor de 0..n: n%4==0 -> n, 1 -> 1, 2 -> n+1, 3 -> 0
+__builtin_popcountll(x)  // cantidad de bits prendidos
+__builtin_ctzll(x)       // ceros al final (x != 0)
+__builtin_clzll(x)       // ceros al inicio (x != 0)
+63 - __builtin_clzll(x)  // floor(log2(x)), indice del bit mas alto
+__builtin_parityll(x)    // popcount % 2
+// Iterar submascaras de m en orden decreciente, O(3^n) en total
+for (int s = m; s > 0; s = (s-1) & m) { /* ... */ } // s = 0 aparte
+// Iterar supermascaras de m con n bits
+for (int s = m; s < (1<<n); s = (s+1) | m) { /* ... */ }
+// Siguiente numero con la misma cantidad de bits (Gosper)
+ll c = x & -x, r = x + c; x = (((r ^ x) >> 2) / c) | r;
+\end{lstlisting}

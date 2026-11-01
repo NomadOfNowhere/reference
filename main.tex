@@ -10,6 +10,9 @@
 \tableofcontents
 \vspace{0.3cm}
 
+\section{Template}
+    \cppfile{utils/template.cpp}
+
 \section{Data structures}
 \subsection{Segment tree}
     \cppfile{data_structures/segment_tree.cpp}
@@ -137,6 +140,8 @@
     \cppfile{strings/suffix_automaton.cpp}
 \subsection{Suffix Array}
     \cppfile{strings/suffix_array.cpp}
+\subsection{Aho-Corasick}
+    \cppfile{strings/aho_corasick.cpp}
 
 
 \section{Geometry}
@@ -156,6 +161,12 @@
     \cppfile{techniques/dijkstra_on_st.cpp}
 \subsection{Venice set}
     \cppfile{techniques/venice_set.cpp}
+\subsection{Divide and conquer DP}
+    \cppfile{techniques/divide_conquer_dp.cpp}
+\subsection{SOS DP}
+    \cppfile{techniques/sos_dp.cpp}
+\subsection{Boolean DP with bitset}
+    \cppfile{techniques/bitset_dp.cpp}
 
 \section{Basic techniques}
 \subsection{Difference array}
@@ -170,6 +181,46 @@
     \cppfile{basic_techniques/digit_dp.cpp}
 \subsection{Intersection [L1, R1] and [L2, R2]}
     \cppfile{basic_techniques/intersection.cpp}
+
+\section{Notas \& fórmulas}
+\subsection{Producto punto}
+    \input{notas_formulas/producto_punto.tex}
+\subsection{Producto cruz}
+    \input{notas_formulas/producto_cruz.tex}
+\subsection{Leyes de los exponentes}
+    \input{notas_formulas/exponentes.tex}
+\subsection{Logaritmos}
+    \input{notas_formulas/logaritmos.tex}
+\subsection{Integrales}
+    \input{notas_formulas/integrales.tex}
+\subsection{Linealidad del valor esperado}
+    \input{notas_formulas/valor_esperado.tex}
+\subsection{Teorema de Bayes}
+    \input{notas_formulas/bayes.tex}
+\subsection{Probabilidad discreta y continua}
+    \input{notas_formulas/probabilidad.tex}
+\subsection{Seno, coseno y tangente}
+    \input{notas_formulas/trigonometria.tex}
+\subsection{N\'umeros de Catalan (principio de reflexi\'on)}
+    \input{notas_formulas/catalan.tex}
+\subsection{Teorema de Lucas}
+    \input{notas_formulas/lucas.tex}
+\subsection{Funciones multiplicativas}
+    \input{notas_formulas/multiplicativas.tex}
+\subsection{F\'ormula del zapato (\'area de pol\'igonos)}
+    \input{notas_formulas/shoelace.tex}
+\subsection{Pol\'igono convexo y no convexo}
+    \input{notas_formulas/convexo.tex}
+\subsection{Bitwise tricks}
+    \input{notas_formulas/bitwise.tex}
+
+\section{Funciones de Python y C++}
+\subsection{Python - Strings}
+    \lstinputlisting[style=C++,language=Python]{python/strings.py}
+\subsection{C++ - Strings (stoi, to\_string, split)}
+    \cppfile{utils/strings.cpp}
+\subsection{C++ - \_\_int128}
+    \cppfile{utils/int128.cpp}
 \end{document}
 
 
@@ -330,81 +381,4 @@
 % \subsection{Max number of divisors up to 10\textsuperscript{n}}
 %     % \cppfile{other/hcn.txt}
 % \subsection{Template}
-<<<<<<< HEAD
 %     % \cppfile{other/template.cpp}
-=======
-%     % \cppfile{other/template.cpp}
-\section{Strings}
-\subsection{KMP}
-    \cppfile{strings/kmp.cpp}
-\subsection{Rolling Hash}
-    \cppfile{strings/hashing.cpp}
-\subsection{LCP using hashing + bs}
-    \cppfile{strings/lcp_hashing.cpp}
-\subsection{Suffix Automaton}
-    \cppfile{strings/suffix_automaton.cpp}
-\subsection{Suffix Array}
-    \cppfile{strings/suffix_array.cpp}
-
-
-\section{Geometry}
-\subsection{Convex Hull}
-    \cppfile{geometry/convex_hull.cpp}
-
-\section{Techniques}
-\subsection{MO's algorithm}
-    \cppfile{techniques/mos_algorithm.cpp}
-\subsection{Parallel binary search}
-    \cppfile{techniques/parallel_bs.cpp}
-\subsection{Split objects into light and heavy}
-    \cppfile{techniques/light_heavy.cpp}
-\subsection{Meet in the middle}
-    \cppfile{techniques/meet_in_the_middle.cpp}
-\subsection{Dijkstra on ST}
-    \cppfile{techniques/dijkstra_on_st.cpp}
-\subsection{Venice set}
-    \cppfile{techniques/venice_set.cpp}
-\subsection{Divide and conquer DP}
-    \cppfile{techniques/divide_conquer_dp.cpp}
-
-\section{Basic techniques}
-\subsection{Difference array}
-    \cppfile{basic_techniques/diff_array.cpp}
-\subsection{Prefix Sum 2D}
-    \cppfile{basic_techniques/prefix_sum_2d.cpp}
-\subsection{Random number generator}
-    \cppfile{basic_techniques/random.cpp}
-\subsection{Coordinate compression}
-    \cppfile{basic_techniques/coord_compression.cpp}
-\subsection{Digit DP}
-    \cppfile{basic_techniques/digit_dp.cpp}
-\subsection{Intersection [L1, R1] and [L2, R2]}
-    \cppfile{basic_techniques/intersection.cpp}
-
-\section{Notas \& fórmulas}
-\subsection{Producto punto}
-    \input{notas_formulas/producto_punto.tex}
-\subsection{Producto cruz}
-    \input{notas_formulas/producto_cruz.tex}
-\subsection{Leyes de los exponentes}
-    \input{notas_formulas/exponentes.tex}
-\subsection{Logaritmos}
-    \input{notas_formulas/logaritmos.tex}
-\subsection{Integrales}
-    \input{notas_formulas/integrales.tex}
-\subsection{Linealidad del valor esperado}
-    \input{notas_formulas/valor_esperado.tex}
-\subsection{Teorema de Bayes}
-    \input{notas_formulas/bayes.tex}
-\subsection{Probabilidad discreta y continua}
-    \input{notas_formulas/probabilidad.tex}
-\subsection{Seno, coseno y tangente}
-    \input{notas_formulas/trigonometria.tex}
-\subsection{N\'umeros de Catalan (principio de reflexi\'on)}
-    \input{notas_formulas/catalan.tex}
-\subsection{Teorema de Lucas}
-    \input{notas_formulas/lucas.tex}
-\subsection{Funciones multiplicativas}
-    \input{notas_formulas/multiplicativas.tex}
-\end{document}
->>>>>>> fb599ed (Notas de mates/LCA con operaciones/Divide & venceras/centroide descom rapido)

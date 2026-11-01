@@ -8,6 +8,7 @@ struct state{
 
 struct SuffixAutomaton{
 	vector<state> st;
+	vector<int> terminals;
 	int last = 0;
 	SuffixAutomaton(){
 		st.emplace_back();
@@ -39,8 +40,14 @@ struct SuffixAutomaton{
 		}
 		last = curr;
 	}
+	void findTerminals(){
+		int p = last;
+        while(p > 0) {
+            terminals.push_back(p);
+            p = st[p].link;
+        }
+	}
 };
-
 // extras
 void compute_counts() {
     int n = st.size();

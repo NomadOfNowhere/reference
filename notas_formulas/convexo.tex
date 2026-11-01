@@ -1,0 +1,32 @@
+\begin{center}
+\setlength{\unitlength}{1pt}
+\begin{picture}(330,112)(0,-34)
+	% convexo
+	\thicklines
+	\qbezier(30,0)(55,0)(80,0)\qbezier(80,0)(87,20)(95,40)
+	\qbezier(95,40)(75,55)(55,70)\qbezier(55,70)(35,55)(15,40)
+	\qbezier(15,40)(22,20)(30,0)
+	\put(30,0){\circle*{3}}\put(80,0){\circle*{3}}\put(95,40){\circle*{3}}
+	\put(55,70){\circle*{3}}\put(15,40){\circle*{3}}
+	\scriptsize
+	\put(33,5){$108^\circ$}\put(62,5){$108^\circ$}\put(73,38){$108^\circ$}
+	\put(46,58){$108^\circ$}\put(20,38){$108^\circ$}
+	\small
+	\put(55,-14){\makebox(0,0){Convexo}}
+	\put(55,-26){\makebox(0,0){\scriptsize todos los \'angulos $<180^\circ$}}
+	% no convexo
+	\thicklines
+	\qbezier(200,0)(235,0)(270,0)\qbezier(270,0)(270,35)(270,70)
+	\qbezier(270,70)(252,52)(235,35)\qbezier(235,35)(218,52)(200,70)
+	\qbezier(200,70)(200,35)(200,0)
+	\put(200,0){\circle*{3}}\put(270,0){\circle*{3}}\put(270,70){\circle*{3}}
+	\put(235,35){\circle*{3}}\put(200,70){\circle*{3}}
+	\scriptsize
+	\put(203,4){$90^\circ$}\put(255,4){$90^\circ$}
+	\put(256,52){$45^\circ$}\put(203,52){$45^\circ$}
+	\put(224,22){$\mathbf{270^\circ}$}
+	\small
+	\put(235,-14){\makebox(0,0){No convexo}}
+	\put(235,-26){\makebox(0,0){\scriptsize alg\'un \'angulo $>180^\circ$}}
+\end{picture}
+\end{center}
