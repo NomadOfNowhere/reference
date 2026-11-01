@@ -1,7 +1,8 @@
+// Parallel Binary Search
 void parallel_bs() {
+    // Rango de busqueda de cada query: [l, r] = [1, q]
     vector<array<int, 2>> queries(n+1);
-    rep(i,1,n+1) queries[i] = {1, q};
- 
+    for(int i=1;i<=n;i++) queries[i] = {1, q};
     bool f = 1;
     while(f) {
         f = 0;
@@ -13,15 +14,16 @@ void parallel_bs() {
                 f = 1;
             }
         }
- 
+        // Resetear Estructura
         obj.reset();
-
-        rep(mid,1,q+1) {
+        for(int mid=1;mid<=q;mid++) {
+            // Aplicar el update mid; ya estan aplicados los updates 1..mid
             auto &[l, r, k] = values[mid];
             obj.update(l, r, k);
  
             for(auto &idx : mids[mid]) {
                 Queries &q = queries[idx];
+                // ok: la query idx ya se cumple con la estructura actual
                 if(ok) q.r = mid - 1;
                 else q.l = mid + 1;
             }
