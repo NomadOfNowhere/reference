@@ -3,7 +3,6 @@
 // O(n * N / 64)
 // N la maxima suma alcanzable (el maximo de una pila)
 const int N=1e5;
-// Los numeros o las transiciones que tengo
 vector<int> nums;
 bitset<N> dp(){
     // Antes era bool dp[pos][cant]

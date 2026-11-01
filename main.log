@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  1 NOV 2026 09:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  1 NOV 2026 10:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,19 +468,19 @@ Package hyperref Info: Link coloring OFF on input line 3.
 \openout3 = `main.out'.
 
 Package babel Info: Main language set to 'english'.
-<fotoequipo.png, id=373, 1027.84pt x 767.86874pt>
+<fotoequipo.png, id=377, 1027.84pt x 767.86874pt>
 File: fotoequipo.png Graphic file (type png)
 <use fotoequipo.png>
 Package pdftex.def Info: fotoequipo.png  used on input line 8.
 (pdftex.def)             Requested size: 235.33948pt x 175.80936pt.
  (./main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (/home/mrangello/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/home/mrangello/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
  (/home/mrangello/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/home/mrangello/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -495,44 +495,28 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
  (./utils/template.cpp
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
-) (./data_structures/segment_tree.cpp) (./data_structures/segment_tree_range_update_point_query.cpp [2]) (./data_structures/segment_tree_lazy.cpp) (./data_structures/segment_tree_persistent.cpp) (./data_structures/fenwick_tree.cpp [3]) (./data_structures/dsu.cpp) (./data_structures/sqrt_decomposition.cpp) (./data_structures/trie.cpp [4]) (./data_structures/trie_xor.cpp) (./data_structures/custom_hash.cpp) (./data_structures/ordered_set.cpp) (./data_structures/merge_sort_tree.cpp [5]) (./data_structures/wavelet_tree.cpp) (./data_structures/monotonic_stack.cpp [6]) (./data_structures/matrix.cpp) (./data_structures/hld.cpp) (./data_structures/cht.cpp [7]) (./data_structures/dynamic_cht.cpp) (./graphs/euler_tour.cpp) (./graphs/find_bridges.cpp) [8] (./graphs/dijkstra.cpp) (./graphs/binary_lifting_lca.cpp) (./graphs/binary_lifting_lca_op.cpp [9]) (./graphs/centroid_decomp.cpp) (./graphs/centroid_decomp_fast.cpp) (./graphs/edmonds_karp.cpp [10]) (./graphs/dinics.cpp
+) (./data_structures/segment_tree.cpp) (./data_structures/segment_tree_range_update_point_query.cpp [2]) (./data_structures/segment_tree_lazy.cpp) (./data_structures/segment_tree_persistent.cpp) (./data_structures/fenwick_tree.cpp [3]) (./data_structures/dsu.cpp) (./data_structures/sqrt_decomposition.cpp) (./data_structures/trie.cpp [4]) (./data_structures/trie_xor.cpp) (./data_structures/custom_hash.cpp) (./data_structures/ordered_set.cpp) (./data_structures/merge_sort_tree.cpp [5]) (./data_structures/wavelet_tree.cpp) (./data_structures/monotonic_stack.cpp [6]) (./data_structures/matrix.cpp) (./data_structures/hld.cpp) (./data_structures/cht.cpp [7]) (./data_structures/dynamic_cht.cpp) (./graphs/euler_tour.cpp) (./graphs/find_bridges.cpp [8]) (./graphs/dijkstra.cpp) (./graphs/binary_lifting_lca.cpp) (./graphs/binary_lifting_lca_op.cpp [9]) (./graphs/centroid_decomp.cpp) (./graphs/centroid_decomp_fast.cpp) (./graphs/edmonds_karp.cpp [10]) (./graphs/dinics.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]) (./graphs/bipartite_check.cpp) (./graphs/has_cycle.cpp) (./graphs/kuhn_matching.cpp) (./graphs/hopcroft_karp_matching.cpp [12]) (./graphs/min_cost_max_flow.cpp) (./graphs/2sat.cpp [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14] (./math/binpow.cpp) (./math/mod_inverse.cpp) (./math/linear_sieve.cpp) (./math/sieve.cpp) (./math/gpf.cpp) (./math/spf.cpp) (./math/factorials.cpp) [15] (./math/prime_factorization.cpp) (./math/divisors.cpp) (./strings/kmp.cpp) (./strings/hashing.cpp) [16] (./strings/lcp_hashing.cpp) (./strings/suffix_automaton.cpp
+ [14]) (./math/binpow.cpp) (./math/mod_inverse.cpp) (./math/linear_sieve.cpp) (./math/sieve.cpp) (./math/gpf.cpp) (./math/spf.cpp) (./math/factorials.cpp [15]) (./math/prime_factorization.cpp) (./math/divisors.cpp) (./strings/kmp.cpp) (./strings/hashing.cpp [16]) (./strings/lcp_hashing.cpp) (./strings/suffix_automaton.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]) (./strings/suffix_array.cpp) (./strings/aho_corasick.cpp [18]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (√\lst@EC≥).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44             // patr√≥n 
-                            de longitud aho[v].fin termina en i
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-)
+ [17]) (./strings/suffix_array.cpp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- (./geometry/convex_hull.cpp [19]
+ [18] (./strings/aho_corasick.cpp) (./geometry/convex_hull.cpp [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (./techniques/mos_algorithm.cpp) (./techniques/parallel_bs.cpp [20]) (./techniques/light_heavy.cpp) (./techniques/meet_in_the_middle.cpp [21]
+) (./techniques/mos_algorithm.cpp) (./techniques/parallel_bs.cpp [20]) (./techniques/light_heavy.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (./techniques/dijkstra_on_st.cpp [22]) (./techniques/venice_set.cpp) (./techniques/divide_conquer_dp.cpp) (./techniques/sos_dp.cpp) (./techniques/bitset_dp.cpp) [23] (./basic_techniques/diff_array.cpp) (./basic_techniques/prefix_sum_2d.cpp) (./basic_techniques/random.cpp) (./basic_techniques/coord_compression.cpp) (./basic_techniques/digit_dp.cpp) (./basic_techniques/intersection.cpp) (./notas_formulas/producto_punto.tex) (./notas_formulas/producto_cruz.tex) (./notas_formulas/exponentes.tex [24]) (./notas_formulas/logaritmos.tex) (./notas_formulas/integrales.tex) (./notas_formulas/valor_esperado.tex) (./notas_formulas/bayes.tex) (./notas_formulas/probabilidad.tex) (./notas_formulas/trigonometria.tex) (./notas_formulas/catalan.tex) (./notas_formulas/lucas.tex) (./notas_formulas/multiplicativas.tex [25]) (./notas_formulas/shoelace.tex) (./notas_formulas/convexo.tex
+ [21]) (./techniques/meet_in_the_middle.cpp) (./techniques/dijkstra_on_st.cpp [22]) (./techniques/venice_set.cpp) (./techniques/divide_conquer_dp.cpp) (./techniques/sos_dp.cpp) (./techniques/bitset_dp.cpp [23]) (./basic_techniques/diff_array.cpp) (./basic_techniques/prefix_sum_2d.cpp) (./basic_techniques/random.cpp) (./basic_techniques/coord_compression.cpp) (./basic_techniques/digit_dp.cpp) (./basic_techniques/intersection.cpp) (./notas_formulas/producto_punto.tex) (./notas_formulas/producto_cruz.tex) [24] (./notas_formulas/exponentes.tex) (./notas_formulas/logaritmos.tex) (./notas_formulas/integrales.tex) (./notas_formulas/valor_esperado.tex) (./notas_formulas/bayes.tex) (./notas_formulas/probabilidad.tex) (./notas_formulas/trigonometria.tex) (./notas_formulas/catalan.tex) (./notas_formulas/lucas.tex) (./notas_formulas/multiplicativas.tex [25]) (./notas_formulas/shoelace.tex) (./notas_formulas/convexo.tex
 Underfull \vbox (badness 2753) has occurred while \output is active []
 
 ) (./notas_formulas/bitwise.tex) (/home/mrangello/.TinyTeX/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -544,137 +528,22 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D7E71C2AC4D5D8A99A7780D08C0AB492;13563
-(rerunfilecheck)             After:  CA9E929F26D8D4014A8E2CBA9A83651C;13654.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CA9E929F26D8D4014A8E2CBA9A83651C;13654.
  ) 
 Here is how much of TeX's memory you used:
- 20294 strings out of 469046
- 316925 string characters out of 5457571
- 1758279 words of memory out of 5000000
- 46558 multiletter control sequences out of 15000+600000
+ 20257 strings out of 469046
+ 316396 string characters out of 5457571
+ 1762281 words of memory out of 5000000
+ 46557 multiletter control sequences out of 15000+600000
  637017 words of font info for 99 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 79i,13n,87p,1001b,2312s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsection.8.15} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.14} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.13} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.12} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.11} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.10} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.9} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.8} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.7} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.9} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.8} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.7} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.6} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.18} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.17} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.16} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.15} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.14} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.13} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.12} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.11} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.10} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.9} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.8} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.7} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.6} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.1} has been referenced but does not exist, replaced by a fixed one
-
+ 79i,13n,91p,1001b,2312s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></home/mrangello/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/latxfont/linew10.pfb>
-Output written on main.pdf (27 pages, 1970824 bytes).
+Output written on main.pdf (27 pages, 1970038 bytes).
 PDF statistics:
- 3396 PDF objects out of 3580 (max. 8388607)
- 3278 compressed objects within 33 object streams
- 2302 named destinations out of 2487 (max. 500000)
- 28902 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 3357 PDF objects out of 3580 (max. 8388607)
+ 3239 compressed objects within 33 object streams
+ 2266 named destinations out of 2487 (max. 500000)
+ 28910 words of extra memory for PDF output out of 29859 (max. 10000000)
 

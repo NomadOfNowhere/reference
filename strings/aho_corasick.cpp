@@ -41,7 +41,7 @@ void search(string &t) {
     for (int i = 0; i < SZ(t); i++) {
         u = aho[u].ch[t[i] - 'a'];
         for (int v = aho[u].fin ? u : aho[u].endLink; v; v = aho[v].endLink) {
-            // patrón de longitud aho[v].fin termina en i
+            // patron de longitud aho[v].fin termina en i
         }
     }
 }

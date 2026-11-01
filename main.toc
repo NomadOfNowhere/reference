@@ -52,14 +52,14 @@
 \contentsline {subsection}{\numberline {5.3}LCP using hashing + bs}{17}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}Suffix Automaton}{17}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Suffix Array}{18}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Aho-Corasick}{18}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.6}Aho-Corasick}{19}{subsection.5.6}%
 \contentsline {section}{\numberline {6}Geometry}{19}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Convex Hull}{19}{subsection.6.1}%
 \contentsline {section}{\numberline {7}Techniques}{20}{section.7}%
 \contentsline {subsection}{\numberline {7.1}MO's algorithm}{20}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Parallel binary search}{20}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Split objects into light and heavy}{21}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Meet in the middle}{21}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.4}Meet in the middle}{22}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}Dijkstra on ST}{22}{subsection.7.5}%
 \contentsline {subsection}{\numberline {7.6}Venice set}{23}{subsection.7.6}%
 \contentsline {subsection}{\numberline {7.7}Divide and conquer DP}{23}{subsection.7.7}%
